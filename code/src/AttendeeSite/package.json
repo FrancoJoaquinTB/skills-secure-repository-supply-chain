@@ -7,6 +7,11 @@
   "scripts": {
     "start": "node provisionComposer.js"
   },
+  "overrides": {
+    "adal-node": {
+      "axios": "^0.33.0"
+    }
+  },
   "dependencies": {
     "@azure/arm-appinsights": "^4.0.0",
     "@azure/arm-botservice": "^4.0.0",
